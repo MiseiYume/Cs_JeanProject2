@@ -1,0 +1,13 @@
+M:\Projekty\Csharp\Jean Project The Second\bin\Debug\netcoreapp3.1\Jean Project The Second.exe
+M:\Projekty\Csharp\Jean Project The Second\bin\Debug\netcoreapp3.1\Jean Project The Second.deps.json
+M:\Projekty\Csharp\Jean Project The Second\bin\Debug\netcoreapp3.1\Jean Project The Second.runtimeconfig.json
+M:\Projekty\Csharp\Jean Project The Second\bin\Debug\netcoreapp3.1\Jean Project The Second.runtimeconfig.dev.json
+M:\Projekty\Csharp\Jean Project The Second\bin\Debug\netcoreapp3.1\Jean Project The Second.dll
+M:\Projekty\Csharp\Jean Project The Second\bin\Debug\netcoreapp3.1\Jean Project The Second.pdb
+M:\Projekty\Csharp\Jean Project The Second\obj\Debug\netcoreapp3.1\Jean Project The Second.csprojAssemblyReference.cache
+M:\Projekty\Csharp\Jean Project The Second\obj\Debug\netcoreapp3.1\Jean Project The Second.AssemblyInfoInputs.cache
+M:\Projekty\Csharp\Jean Project The Second\obj\Debug\netcoreapp3.1\Jean Project The Second.AssemblyInfo.cs
+M:\Projekty\Csharp\Jean Project The Second\obj\Debug\netcoreapp3.1\Jean Project The Second.csproj.CoreCompileInputs.cache
+M:\Projekty\Csharp\Jean Project The Second\obj\Debug\netcoreapp3.1\Jean Project The Second.dll
+M:\Projekty\Csharp\Jean Project The Second\obj\Debug\netcoreapp3.1\Jean Project The Second.pdb
+M:\Projekty\Csharp\Jean Project The Second\obj\Debug\netcoreapp3.1\Jean Project The Second.genruntimeconfig.cache
