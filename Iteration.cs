@@ -10,6 +10,7 @@ namespace Iteration
             int number = Convert.ToInt32(Console.ReadLine());
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
+            Console.Clear();
             int factorial = 0;
             if (number < 2)
             {
@@ -23,9 +24,11 @@ namespace Iteration
                     factorial = (i * (i + 1));
                 }
                 Console.WriteLine($"Your factorial from {number}! equals {factorial}");
-                TimeSpan timespan = stopWatch.Elapsed;
-                Console.WriteLine($"\nTime elapsed: {timespan}");
             }
+            TimeSpan timespan = stopWatch.Elapsed;
+            Console.WriteLine($"\nTime elapsed: {timespan}");
+            Console.ReadKey();
+            Console.Clear();
         }
     }
 }

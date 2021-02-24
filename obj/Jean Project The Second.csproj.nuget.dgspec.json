@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "M:\\Projekty\\Csharp\\Jean Project The Second\\Jean Project The Second.csproj": {}
+    "M:\\Projekty\\Csharp\\Cs_JeanProjectTheSecond\\Jean Project The Second.csproj": {}
   },
   "projects": {
-    "M:\\Projekty\\Csharp\\Jean Project The Second\\Jean Project The Second.csproj": {
+    "M:\\Projekty\\Csharp\\Cs_JeanProjectTheSecond\\Jean Project The Second.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\Projekty\\Csharp\\Jean Project The Second\\Jean Project The Second.csproj",
+        "projectUniqueName": "M:\\Projekty\\Csharp\\Cs_JeanProjectTheSecond\\Jean Project The Second.csproj",
         "projectName": "Jean Project The Second",
-        "projectPath": "M:\\Projekty\\Csharp\\Jean Project The Second\\Jean Project The Second.csproj",
+        "projectPath": "M:\\Projekty\\Csharp\\Cs_JeanProjectTheSecond\\Jean Project The Second.csproj",
         "packagesPath": "C:\\Users\\hothd\\.nuget\\packages\\",
-        "outputPath": "M:\\Projekty\\Csharp\\Jean Project The Second\\obj\\",
+        "outputPath": "M:\\Projekty\\Csharp\\Cs_JeanProjectTheSecond\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "A:\\Microsoft\\Xamarin\\NuGet\\"
