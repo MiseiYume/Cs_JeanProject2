@@ -26,7 +26,6 @@ namespace menu
                         break;
                     case 0:
                         Console.WriteLine("Stopping the program...\n");
-                        Console.Clear();
                         break;
                     default:
                         Console.Clear();

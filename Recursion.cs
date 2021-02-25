@@ -4,6 +4,17 @@ namespace Recursion
 {
     class RecursiveFactorial
     {
+        private int processFactorial(int number)
+        {
+            if (number == 1)
+            { 
+                return 1;
+            }
+            else
+            {
+                return (number * processFactorial(number - 1));
+            }
+        }
         public void recursiveFactorial()
         {
             Console.WriteLine("Please insert the factored number: ");
@@ -11,16 +22,14 @@ namespace Recursion
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
             Console.Clear();
-            int processFactorial(int number)
+            if (number < 1)
             {
-                if (number > 2)
-                {
-                    return (number * processFactorial(number - 1));
-                    int factored = processFactorial(number);
-                    Console.WriteLine($"Your factorial from {number}! equals {factored}");
-                }
-                else return 1;
                 Console.WriteLine($"Factorial cannot be smaller than 1 and so your {number}! returned 1");
+            }
+            else
+            { 
+                int factored = processFactorial(number);
+                Console.WriteLine($"Your factorial from {number}! equals {factored}");
             }
             TimeSpan timespan = stopWatch.Elapsed;
             Console.WriteLine($"\nTime elapsed: {timespan}");
