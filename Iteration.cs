@@ -11,17 +11,16 @@ namespace Iteration
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
             Console.Clear();
-            int factorial = 0;
-            if (number < 2)
+            int factorial = 1;
+            if (number == 1)
             {
-                factorial = 1;
                 Console.WriteLine($"Factorial cannot be smaller than 1 and so your {number}! returned {factorial}");
             }
-            else if (number >= 2)
+            else 
             {
-                for (int i = 0; i < number; i++)
+                for (int i = 1; i <= number; i++)
                 {
-                    factorial = (i * (i + 1));
+                    factorial *= i;
                 }
                 Console.WriteLine($"Your factorial from {number}! equals {factorial}");
             }
