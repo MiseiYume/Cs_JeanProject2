@@ -6,28 +6,46 @@ namespace Iteration
     {
         public void iterativeFactorial()
         {
+            int smallNumber;
+            int number;
+            Console.WriteLine("Please insert the number you want to start with:");
+            var isNumeric = int.TryParse(Console.ReadLine(), out smallNumber);
             Console.WriteLine("Please insert the factored number:");
-            int number = Convert.ToInt32(Console.ReadLine());
+            var isNumeric2 = int.TryParse(Console.ReadLine(), out number);
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
             Console.Clear();
-            int factorial = 1;
-            if (number == 1)
+            if (isNumeric == true && isNumeric2 == true)
             {
-                Console.WriteLine($"Factorial cannot be smaller than 1 and so your {number}! returned {factorial}");
-            }
-            else 
-            {
-                for (int i = 1; i <= number; i++)
+                int factorial = 1;
+                if (number == 1)
                 {
-                    factorial *= i;
+                    Console.WriteLine($"Factorial cannot be smaller than 1 and so your {number}! returned {factorial}");
                 }
-                Console.WriteLine($"Your factorial from {number}! equals {factorial}");
+                else 
+                {
+                    for (int i = number; i >= smallNumber; i--)
+                    {
+                        factorial *= i;
+                    }
+                    Console.WriteLine($"Your factorial from {number}! equals {factorial}");
+                }
             }
-            TimeSpan timespan = stopWatch.Elapsed;
-            Console.WriteLine($"\nTime elapsed: {timespan}");
-            Console.ReadKey();
-            Console.Clear();
+            else
+            {
+                if (isNumeric == false)
+                {
+                    Console.WriteLine("First input was invalid.\n");
+                }
+                else if (isNumeric2 == false)
+                    {
+                    Console.WriteLine("Second input was invalid.\n");
+                }
+                TimeSpan timespan = stopWatch.Elapsed;
+                Console.WriteLine($"\nTime elapsed: {timespan}");
+                Console.ReadKey();
+                Console.Clear();
+            }
         }
     }
 }
