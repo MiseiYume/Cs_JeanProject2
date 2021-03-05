@@ -1,12 +1,6 @@
 # Cs_JeanProjectTheSecond
 Open source factorial calculator with both iterative and recursive variant of mentioned operation. 
 
-## Table of Contents
-
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Executing](#launch)
-
 ## General info
 
 Simple project made to get a minimum experience in C# and it's functions.
@@ -21,4 +15,4 @@ The program is based on:
 
 ## Executing
 
-To launch this code you'll need a C# compilator in order to compile it i.e. in your IDE or to create an .exe file.
+To launch this code you'll need a C# 8.0 compilator in order to compile it i.e. in your IDE or to create an .exe file. The project was created basing on .NET Core 3.1 which means it should run on every platform.
